@@ -1,4 +1,4 @@
-# Advanced Python CLI Project
+# Python CLI Project
 
 ![Python](https://img.shields.io/badge/python-3.14-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -23,19 +23,17 @@ project/
 
 ## Project Overview
 
-This is an **advanced Python CLI tool** that demonstrates a broad set of programming concepts suitable for learning and real-world applications. The project includes:
+This is an **Python CLI tool** that demonstrates a broad set of programming concepts suitable for learning and real-world applications. The project includes:
 
 - **OS interaction & File I/O**: Read, write, and manage files and directories.
 - **Generators & Iterators**: Handle large datasets efficiently.
 - **Data Structures**: Lists, sets, dictionaries, and comprehensions.
 - **JSON Reports**: Save structured data analysis results.
-- **Command-Line Interface (CLI)**: Run specific functions directly using \`argparse\`.
-- **Data Analysis**: Use \`pandas\` and \`numpy\` for numerical computations.
-- **Machine Learning**: Train simple models using \`scikit-learn\`.
-- **Data Visualization**: Plot graphs with \`matplotlib\`.
+- **Command-Line Interface (CLI)**: Run specific functions directly using `argparse`.
+- **Data Analysis**: Use `pandas` and `numpy` for numerical computations.
+- **Machine Learning**: Train simple models using `scikit-learn`.
+- **Data Visualization**: Plot graphs with `matplotlib`.
 - **Professional Structure**: Main function, modular functions, and testable design.
-
-This project is perfect for **learning advanced Python concepts** while building a real-world tool.
 
 ---
 
@@ -44,8 +42,8 @@ This project is perfect for **learning advanced Python concepts** while building
 1. **Clone the repository:**
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <repo-url>
+cd <repo-folder>
 ```
 
 2. **Create a virtual environment (recommended):**
@@ -89,11 +87,11 @@ Files in data folder: ['myfile.txt', 'data.csv']
 python project.py analyze-text myfile.txt
 ```
 
-- Generates a **JSON report** in \`reports/\` with:
+- Generates a **JSON report** in `reports/` with:
   - Number of lines
   - Number of words
   - Number of unique words
-- Example report saved as \`reports/myfile_report.json\`:
+- Example report saved as `reports/myfile_report.json`:
 
 ```json
 {
@@ -175,17 +173,6 @@ pytest test_project.py
 - `matplotlib` – data visualization  
 
 All dependencies are listed in `requirements.txt`.
-
----
-
-## Advanced Features
-
-- **Generators & Iterators**: Efficiently handle large text or CSV files.
-- **argparse CLI**: Run any function directly from the terminal.
-- **JSON Reports**: Automatically generate structured output for sharing.
-- **Vectorized operations**: Fast computation using NumPy and Pandas.
-- **Professional Structure**: Main function, modular functions, and testable design.
-- **Extensible**: Easily add new CLI commands or analysis functions.
 
 ---
 
